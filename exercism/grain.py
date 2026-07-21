@@ -1,3 +1,7 @@
+def main():
+    number = int(input("enter the number of square (1-64): "))
+    print(square(number))
+
 def square(number):
     if number < 1 or number > 64:
         raise ValueError("square must be between 1 and 64")

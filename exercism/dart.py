@@ -12,6 +12,4 @@ def score(x, y):
     else:
         return 0
                 
-        
-    
     
